@@ -5,25 +5,84 @@
 
 .header {
     padding-top: 14px;
-    padding-bottom: 21px;
+    padding-left: 18px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: space-around;;
+}
+
+.title {
+    font-family: "Gilroy-Bold";
+    font-size: 60px;
+    width: 522px;
+    height: 222px;
 }
 
 .top__content {
-    margin-top: 96px;
+    display: flex;
+    padding-left: 16px;
+    padding-top: 15px;
+}
+
+.top_img {
+}
+
+.top__info {
+    padding-top: 59px;
+    padding-left: 41px;
 }
 
 .subtitle {
-    margin-top: 17px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
 }
 
 .top__buttons {
-    padding-top: 52px;
+    padding-top: 362px;
+    padding-left: 20px;
+    padding-bottom: 38px;
+    padding-right: 195px;
 }
 
 .top__logos {
-    padding-top: 275px;
+    display: flex;
+    padding-top: 738px;
+    padding-bottom: 32px;
+    padding-left: 34px;
+    padding-right: 45px;
+}
+
+.logo {
+    padding-top: 26px;
+    padding-left: 59px;
+    padding-bottom: 48px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.menubar a {
+    font-family: "Gilroy-SemiBold";
+    color: #000;
+    text-decoration: none;
+}
+
+.orange {
+    color: #F25822;
+}
+
+.menubar {
+    display: inline-block;
+    padding-top: 50px;
+    
+    font-size: 14px;
+    line-height: 16px;
+    
 }
 
 .top {
-
+    margin-left: 298px;
+    margin-right: 303px;
+    margin-bottom: 15px;
 }
