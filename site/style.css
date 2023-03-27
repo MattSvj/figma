@@ -4,11 +4,12 @@
 }
 
 .header {
-    padding-top: 14px;
-    padding-left: 18px;
-    padding-right: 12px;
+    margin-left: 18px;
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-bottom: 21px;
     display: flex;
-    justify-content: space-around;;
+    
 }
 
 .title {
@@ -22,6 +23,9 @@
     display: flex;
     padding-left: 16px;
     padding-top: 15px;
+    margin-top: 21px;
+    margin-left: 18px;
+    margin-right: 27px;
 }
 
 .top_img {
@@ -40,44 +44,109 @@
 }
 
 .top__buttons {
-    padding-top: 362px;
-    padding-left: 20px;
-    padding-bottom: 38px;
-    padding-right: 195px;
+    display: flex;
+    
+    margin-top: 16px;
+    margin-right: 195px;
+    margin-bottom: 38px;
+    
+}
+
+
+
+.button1 {
+    
+    width: 140px;
+    height: 50px;
+    margin-top: 21px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.button2 {
+    
+    width: 90px;
+    height: 19px;
+    margin-top: 36px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 72px;
+    color: #AAAAAA;
+    background: 
 }
 
 .top__logos {
     display: flex;
-    padding-top: 738px;
-    padding-bottom: 32px;
-    padding-left: 34px;
-    padding-right: 45px;
+    
+    margin-top: 53px;
+    margin-bottom: 32px;
+    margin-left: 34px;
+    margin-right: 45px;
+    padding-top: 59px;
+    padding-bottom: 49px;
+    padding-left: 13px;
+    padding-right: 48px;
+}
+
+.logot {
+    margin-right: 48px;
 }
 
 .logo {
-    padding-top: 26px;
-    padding-left: 59px;
-    padding-bottom: 48px;
-    display: inline-block;
-    vertical-align: center;
+    display: flex;
+    margin-top: 26px;
+    margin-left: 59px;
+    margin-bottom: 48px;
 }
 
+.headlogoF {
+    margin-right: 14px;
+}
+
+.headlogoS {
+    margin-top: 5px;
+}
+/*
 .menubar a {
     font-family: "Gilroy-SemiBold";
     color: #000;
     text-decoration: none;
 }
+*/
+.link {
+    font-family: "Gilroy-SemiBold";
+    color: #000;
+    text-decoration: none;
+    margin-left: 22px;
+}
 
-.orange {
+.orange  {
     color: #F25822;
+    text-decoration: none;
+    font-family: "Gilroy-SemiBold";
 }
 
 .menubar {
-    display: inline-block;
-    padding-top: 50px;
     
-    font-size: 14px;
-    line-height: 16px;
+    
+    margin-top: 26px;
+    margin-bottom: 48px;
+    margin-right: 200px;
+    margin-left: 337px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-left: 9px;
+    padding-right: 14px;
+    
+    
+    
+    
     
 }
 
